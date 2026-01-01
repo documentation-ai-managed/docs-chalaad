@@ -116,8 +116,8 @@
       }
     ]
   },
-  "logo-dark": "https://blob-cdn.documentation.ai/org-4f13eb52-fa8a-4b52-81bd-29cc69c01664/doc-09290b52-c943-40de-9e23-8d1ddc0e42e2/1767284830748-cg6kev5ftgf-CHALAAD-Help-Wordmark-Horizontal-Dark-cropped.png?q=85&fm=auto&auto=compress%2Cformat",
-  "logo-light": "https://blob-cdn.documentation.ai/org-4f13eb52-fa8a-4b52-81bd-29cc69c01664/doc-09290b52-c943-40de-9e23-8d1ddc0e42e2/1767284906908-w007d2eane-CHALAAD-Help-Wordmark-Horizontal-Light-cropped.png?q=85&fm=auto&auto=compress%2Cformat",
+  "logo-dark": "https://blob-cdn.documentation.ai/org-4f13eb52-fa8a-4b52-81bd-29cc69c01664/doc-09290b52-c943-40de-9e23-8d1ddc0e42e2/1767284906908-w007d2eane-CHALAAD-Help-Wordmark-Horizontal-Light-cropped.png?q=85&fm=auto&auto=compress%2Cformat",
+  "logo-light": "https://blob-cdn.documentation.ai/org-4f13eb52-fa8a-4b52-81bd-29cc69c01664/doc-09290b52-c943-40de-9e23-8d1ddc0e42e2/1767284830748-cg6kev5ftgf-CHALAAD-Help-Wordmark-Horizontal-Dark-cropped.png?q=85&fm=auto&auto=compress%2Cformat",
   "favicon": "https://blob-cdn.documentation.ai/org-4f13eb52-fa8a-4b52-81bd-29cc69c01664/doc-09290b52-c943-40de-9e23-8d1ddc0e42e2/1767284941356-7f9zlkslvdm-CHALAAD-Help-Favicon-Orange-Balloon.png?q=85&fm=auto&auto=compress%2Cformat",
   "ai": {
     "ai-assistant:enabled": true
