@@ -1,0 +1,119 @@
+{
+  "name": "CHALAAD",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#7d3ff8"
+    },
+    "dark": {
+      "brand": "#9e6ffa"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              },
+              {
+                "title": "Quick Start",
+                "path": "quickstart",
+                "icon": "zap"
+              }
+            ]
+          },
+          {
+            "group": "Smart Home Essentials",
+            "icon": "layers",
+            "pages": [
+              {
+                "title": "Discovering Products",
+                "path": "discovering-products",
+                "icon": "grid"
+              },
+              {
+                "title": "Installation Services",
+                "path": "installation-services",
+                "icon": "tool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Getting Started with Chalaad",
+                "path": "help-center/faq/getting-started-with-chalaad"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-triangle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Device Not Connecting",
+                "path": "help-center/troubleshooting/device-not-connecting"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "How to Install Smart Switch",
+                "path": "help-center/guides/how-to-install-smart-switch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
