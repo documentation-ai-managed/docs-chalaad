@@ -14,36 +14,42 @@
       {
         "tab": "Documentation",
         "icon": "book",
-        "groups": [
+        "dropdowns": [
           {
-            "group": "Getting Started",
-            "icon": "rocket",
-            "pages": [
+            "dropdown": "Language",
+            "icon": "lucide-globe",
+            "groups": [
               {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
+                "group": "Getting Started",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Introduction",
+                    "path": "introduction",
+                    "icon": "home"
+                  },
+                  {
+                    "title": "Quick Start",
+                    "path": "quickstart",
+                    "icon": "zap"
+                  }
+                ]
               },
               {
-                "title": "Quick Start",
-                "path": "quickstart",
-                "icon": "zap"
-              }
-            ]
-          },
-          {
-            "group": "Smart Home Essentials",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Discovering Products",
-                "path": "discovering-products",
-                "icon": "grid"
-              },
-              {
-                "title": "Installation Services",
-                "path": "installation-services",
-                "icon": "tool"
+                "group": "Smart Home Essentials",
+                "icon": "layers",
+                "pages": [
+                  {
+                    "title": "Discovering Products",
+                    "path": "discovering-products",
+                    "icon": "grid"
+                  },
+                  {
+                    "title": "Installation Services",
+                    "path": "installation-services",
+                    "icon": "tool"
+                  }
+                ]
               }
             ]
           }
