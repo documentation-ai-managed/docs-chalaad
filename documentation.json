@@ -24,6 +24,11 @@
                 "icon": "rocket",
                 "pages": [
                   {
+                    "title": "Start",
+                    "path": "Start",
+                    "icon": "lucide-rocket"
+                  },
+                  {
                     "title": "Introduction",
                     "path": "introduction",
                     "icon": "home"
