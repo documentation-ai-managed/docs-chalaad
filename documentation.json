@@ -55,6 +55,17 @@
                     "icon": "tool"
                   }
                 ]
+              },
+              {
+                "group": "Aqara Support",
+                "pages": [
+                  {
+                    "title": "Aqara Support",
+                    "path": "aqara-support",
+                    "icon": "book-marked"
+                  }
+                ],
+                "icon": "library-big-icon"
               }
             ]
           }
