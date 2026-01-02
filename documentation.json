@@ -10,135 +10,146 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "icon": "book",
-        "dropdowns": [
+        "language": "ภาษาไทย",
+        "icon": "languages",
+        "tabs": [
           {
-            "dropdown": "Language",
-            "icon": "lucide-globe",
+            "tab": "Documentation",
+            "icon": "book",
+            "dropdowns": [
+              {
+                "dropdown": "Language",
+                "icon": "lucide-globe",
+                "groups": [
+                  {
+                    "group": "Getting Started",
+                    "icon": "rocket",
+                    "pages": [
+                      {
+                        "title": "Start",
+                        "path": "Start",
+                        "icon": "lucide-rocket"
+                      },
+                      {
+                        "title": "Introduction",
+                        "path": "introduction",
+                        "icon": "home"
+                      },
+                      {
+                        "title": "Quick Start",
+                        "path": "quickstart",
+                        "icon": "zap"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Smart Home Essentials",
+                    "icon": "layers",
+                    "pages": [
+                      {
+                        "title": "Discovering Products",
+                        "path": "discovering-products",
+                        "icon": "grid"
+                      },
+                      {
+                        "title": "Installation Services",
+                        "path": "installation-services",
+                        "icon": "tool"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Aqara Support",
+                    "pages": [
+                      {
+                        "title": "Aqara Support",
+                        "path": "aqara-support",
+                        "icon": "book-marked"
+                      }
+                    ],
+                    "icon": "library-big-icon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "icon": "code",
             "groups": [
               {
-                "group": "Getting Started",
-                "icon": "rocket",
-                "pages": [
-                  {
-                    "title": "Start",
-                    "path": "Start",
-                    "icon": "lucide-rocket"
-                  },
-                  {
-                    "title": "Introduction",
-                    "path": "introduction",
-                    "icon": "home"
-                  },
-                  {
-                    "title": "Quick Start",
-                    "path": "quickstart",
-                    "icon": "zap"
-                  }
-                ]
-              },
-              {
-                "group": "Smart Home Essentials",
-                "icon": "layers",
-                "pages": [
-                  {
-                    "title": "Discovering Products",
-                    "path": "discovering-products",
-                    "icon": "grid"
-                  },
-                  {
-                    "title": "Installation Services",
-                    "path": "installation-services",
-                    "icon": "tool"
-                  }
-                ]
-              },
-              {
-                "group": "Aqara Support",
-                "pages": [
-                  {
-                    "title": "Aqara Support",
-                    "path": "aqara-support",
-                    "icon": "book-marked"
-                  }
-                ],
-                "icon": "library-big-icon"
+                "group": "Endpoints",
+                "openapi": "openapi.yaml"
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
           },
           {
-            "group": "FAQs",
+            "tab": "Help Center",
             "icon": "help-circle",
-            "expandable": false,
             "pages": [
               {
-                "title": "Getting Started with Chalaad",
-                "path": "help-center/faq/getting-started-with-chalaad"
+                "title": "Help Center",
+                "path": "help-center",
+                "icon": "home"
+              },
+              {
+                "group": "FAQs",
+                "icon": "help-circle",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Getting Started with Chalaad",
+                    "path": "help-center/faq/getting-started-with-chalaad"
+                  }
+                ]
+              },
+              {
+                "group": "Troubleshooting",
+                "icon": "alert-triangle",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Device Not Connecting",
+                    "path": "help-center/troubleshooting/device-not-connecting"
+                  }
+                ]
+              },
+              {
+                "group": "Guides",
+                "icon": "book-open",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "How to Install Smart Switch",
+                    "path": "help-center/guides/how-to-install-smart-switch"
+                  }
+                ]
               }
             ]
           },
           {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
+            "tab": "Changelog",
+            "icon": "clock",
             "pages": [
               {
-                "title": "Device Not Connecting",
-                "path": "help-center/troubleshooting/device-not-connecting"
+                "title": "Release History",
+                "path": "changelog",
+                "icon": "history"
               }
             ]
           },
           {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "How to Install Smart Switch",
-                "path": "help-center/guides/how-to-install-smart-switch"
-              }
-            ]
+            "tab": "Test",
+            "pages": []
           }
         ]
       },
       {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Release History",
-            "path": "changelog",
-            "icon": "history"
-          }
-        ]
-      },
-      {
-        "tab": "Test",
-        "pages": []
+        "language": "English",
+        "pages": [],
+        "icon": "languages"
       }
     ]
   },
