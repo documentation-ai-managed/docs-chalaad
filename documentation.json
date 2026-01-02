@@ -28,11 +28,6 @@
                     "icon": "rocket",
                     "pages": [
                       {
-                        "title": "Start",
-                        "path": "Start",
-                        "icon": "lucide-rocket"
-                      },
-                      {
                         "title": "Introduction",
                         "path": "introduction",
                         "icon": "home"
@@ -143,6 +138,17 @@
           {
             "tab": "Test",
             "pages": []
+          },
+          {
+            "tab": "Help Centre",
+            "pages": [
+              {
+                "title": "Start",
+                "path": "Start",
+                "icon": "lucide-rocket"
+              }
+            ],
+            "icon": "life-buoy"
           }
         ]
       },
