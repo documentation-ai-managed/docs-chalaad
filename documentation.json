@@ -20,8 +20,8 @@
             "icon": "book",
             "dropdowns": [
               {
-                "dropdown": "🏷️ แบรนด์สมาร์ทโฮม",
-                "icon": "tag",
+                "dropdown": "Aqara Support",
+                "icon": "life-buoy",
                 "groups": [
                   {
                     "group": "Getting Started",
@@ -67,6 +67,11 @@
                     "icon": "library-big-icon"
                   }
                 ]
+              },
+              {
+                "dropdown": "BTicino Help Centre",
+                "pages": [],
+                "icon": "life-buoy"
               }
             ]
           },
