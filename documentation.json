@@ -20,8 +20,8 @@
             "icon": "book",
             "dropdowns": [
               {
-                "dropdown": "Language",
-                "icon": "lucide-globe",
+                "dropdown": "🏷️ แบรนด์สมาร์ทโฮม",
+                "icon": "tag",
                 "groups": [
                   {
                     "group": "Getting Started",
@@ -168,5 +168,20 @@
   "seo": {
     "robots:index": false,
     "robots:follow": false
+  },
+  "template": "classic",
+  "navbar": {
+    "actions": {
+      "primary": {
+        "title": "🌐",
+        "link": "https://chalaad.com"
+      },
+      "links": [
+        {
+          "title": "🛍️",
+          "link": "https://store.chalaad.com"
+        }
+      ]
+    }
   }
 }
