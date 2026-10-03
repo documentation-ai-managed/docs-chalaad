@@ -174,7 +174,7 @@
     "robots:index": false,
     "robots:follow": false
   },
-  "template": "classic",
+  "template": "atlas",
   "navbar": {
     "actions": {
       "primary": {
