@@ -1,6 +1,6 @@
 {
   "name": "CHALAAD",
-  "initialRoute": "introduction",
+  "initialRoute": "help-center",
   "colors": {
     "light": {
       "brand": "#7d3ff8"
